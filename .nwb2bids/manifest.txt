@@ -1,0 +1,17 @@
+dandiset.yaml
+dataset_description.json
+participants.tsv
+participants.json
+derivatives/dataset_description.json
+sub-Nitschke/sub-Nitschke_sessions.tsv
+sub-Nitschke/sub-Nitschke_sessions.json
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_ecephys.json
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_probes.tsv
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_probes.json
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_channels.tsv
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_channels.json
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_electrodes.tsv
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_electrodes.json
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_events.tsv
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_events.json
+sub-Nitschke/ses-20100923/ecephys/sub-Nitschke_ses-20100923_ecephys.nwb

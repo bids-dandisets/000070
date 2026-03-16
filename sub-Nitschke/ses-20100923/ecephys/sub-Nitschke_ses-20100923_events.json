@@ -1,0 +1,73 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "target_presentation_time": {
+        "Description": "time of target presentation"
+    },
+    "go_cue_time": {
+        "Description": "time of go cue"
+    },
+    "reaction_time": {
+        "Description": "reaction time"
+    },
+    "move_begins_time": {
+        "Description": "movement onset time"
+    },
+    "move_ends_time": {
+        "Description": "movement stop time"
+    },
+    "discard_trial": {
+        "Description": "flag that will usually be 0, but is set to 1 if there was a photo box problem (meaning RT can't be calculated accurately) or we had a hand tracking error during the movement. In general, throw those trials away."
+    },
+    "task_success": {
+        "Description": "indicates whether the monkey was successful on this trial"
+    },
+    "trial_type": {
+        "Description": "trial type"
+    },
+    "trial_version": {
+        "Description": "should be 0 for a truly random maze (two random barriers). For a degenerate maze (real maze with some barriers randomly removed) trialVersion is >10"
+    },
+    "proto_trial": {
+        "Description": "whether that trial was used as the prototype trial for figuring out which trials were consistent"
+    },
+    "maze_condition": {
+        "Description": "The set of 27 (or 108) mazes included was composed of 3 (or 12) \u201csubsets\u201d. Each subset contained 3 related mazes. Each maze had 3 \u201cversions\u201d: the 3-target with barrier, the 1-target with barriers, and the 1-target with no barriers. These 3 versions shared the same target positions. The 3-target and 1-target versions also shared the same barrier positions. In the 3-target version, exactly one target was accessible "
+    },
+    "correct_reach": {
+        "Description": "tells you the result of our algorithm for determining whether this reach looked like the other reaches for this condition. To get it, we correlated the hand velocity for every pair of trials with that condition, accepted the reach with the most high correlations as prototypical, then marked as \u201cconsistent\u201d only reaches that had a high enough correlation with the prototypical reach."
+    },
+    "maze_num_targets": {
+        "Description": "number of targets presented"
+    },
+    "maze_num_barriers": {
+        "Description": "number of barriers presented"
+    },
+    "novel_maze": {
+        "Description": "novel maze"
+    },
+    "hit_target_position": {
+        "Description": "x,y position on screen of the target hit"
+    },
+    "target_size": {
+        "Description": "half width of the targets"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    }
+}
