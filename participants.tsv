@@ -1,2 +1,2 @@
-participant_id	species	sex
-sub-Nitschke	Macaca mulatta	M
+participant_id	original_participant_id	species	sex
+sub-Nitschke	sub-Nitschke	Macaca mulatta	M
